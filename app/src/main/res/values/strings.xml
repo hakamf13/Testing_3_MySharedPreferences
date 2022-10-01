@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MySharedPreferences</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="age">Age</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save">Save</string>
+    <string name="is_love_mu">is Love Manchester United?</string>
+    <string name="change">Change</string>
+    <string name="dummy_name">Narenda Wicaksono</string>
+    <string name="dummy_email">narenda@dicoding.com</string>
+    <string name="dummy_number">123456</string>
+    <string name="dummy_age">30</string>
+    <string name="dummy_is_love_mu">Yes, I Love it!</string>
+</resources>
