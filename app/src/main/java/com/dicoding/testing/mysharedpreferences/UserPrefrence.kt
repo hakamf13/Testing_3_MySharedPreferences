@@ -3,15 +3,6 @@ package com.dicoding.testing.mysharedpreferences
 import android.content.Context
 
 internal class UserPrefrence(context: Context) {
-    companion object {
-        private const val PREFS_NAME = "user_pref"
-        private const val NAME = "name"
-        private const val EMAIL = "email"
-        private const val AGE = "age"
-        private const val PHONE_NUMBER = "phone"
-        private const val LOVE_MU = "islove"
-    }
-
     private val preferences = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
 
     fun setUser(value: UserModel) {
@@ -33,5 +24,14 @@ internal class UserPrefrence(context: Context) {
         model.isLove = preferences.getBoolean(LOVE_MU, false)
 
         return model
+    }
+
+    companion object {
+        private const val PREFS_NAME = "user_pref"
+        private const val NAME = "name"
+        private const val EMAIL = "email"
+        private const val AGE = "age"
+        private const val PHONE_NUMBER = "phone"
+        private const val LOVE_MU = "islove"
     }
 }
